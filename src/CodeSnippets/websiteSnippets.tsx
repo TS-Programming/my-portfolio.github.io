@@ -36,7 +36,7 @@ export default function Home() {
 }`;
 
 
-export const collapsibleScriptDescription: string = `If we peak at the code for the COLLAPSIBLE_COMPONENT, we can see the redundancies avoided by using the custom component instead of repeating the same code every time we want to use a collapsible section. Also, notice useState, which is a react hook that faciliatates the distinctions between the collapsed and expanded states. Hooks are the hallmark of react and I love them!
+export const collapsibleScriptDescription: string = `If we peek at the code for the COLLAPSIBLE_COMPONENT, we can see the redundancies avoided by using the custom component instead of repeating the same code every time we want to use a collapsible section. Also, notice useState, which is a react hook that faciliatates the distinctions between the collapsed and expanded states. Hooks are the hallmark of react and I love them!
 `;
 
 export const collapsibleScriptSnippet: string = ` 

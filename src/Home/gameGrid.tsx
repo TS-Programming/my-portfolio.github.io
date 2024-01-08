@@ -28,7 +28,7 @@ const GameGrid = () => {
             linkUrl: "https://ts-programming.github.io/needle-portfolio-react/#/making-the-site",
             gameTags: ["ReactJS", "TypeScript" , "Unity", "Needle Tools"],
             description: "How I made my website.",
-            features: ["3D graphics centerpiece with links to portfolio pages", "Custom ReactJS site"],
+            features: ["3D graphics centerpiece with links to portfolio pages", "Custom ReactJS site", "WebGL integration with ReactJS using Unity and Needle Tools"],
             bannerLabel: "This site"
         }//,
         // {

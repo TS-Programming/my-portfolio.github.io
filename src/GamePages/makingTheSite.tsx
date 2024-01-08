@@ -15,9 +15,10 @@ const MakingTheSite = () => {
 
 
   return (
-    <Container maxW="65%" p={0} pt="64px">
+    <Container maxW={["100%", "90%", "80%", "70%", "65%"]} p={0} pt="64px">
+    {/* <Container  p={0} pt="64px"> */}
       <TOP_BAR />
-      <Box mt="0px" mb="100px" ml="150px" mr="150px">
+      <Box mt="0px" mb="100px" ml={["5%", "10%", "150px"]} mr={["5%", "10%", "150px"]}>
       <Box textAlign="center" mb="25px">
       <Text fontSize="6xl" fontWeight="bold"  mb="8">
         Making My Portfolio Site
@@ -39,7 +40,7 @@ const MakingTheSite = () => {
     </Box>
     <Text fontSize="4xl" fontWeight="bold" textAlign="center" >The Why</Text>
     {/* <Text mb="1">The famous abstract strategy game invented by Tomas Flodén. It's like Tic Tac Toe, but much deeper. Five-in-a-line wins, and a quadrant must be rotated each turn. Play versus the computer or a friend.</Text> */}
-    <Text mb="8">I made this website to display my portfolio pieces and give some explanation to how I made them. Funny enough, the website itself is a portfolio piece, so please enjoy learning how I made it, including the "Trophy Case" display on the home page. </Text>
+    <Text mb="8"  textAlign="left">I made this website to display my portfolio pieces and give some explanation to how I made them. Funny enough, the website itself is a portfolio piece, so please enjoy learning how I made it, including the "Trophy Case" display on the home page. </Text>
 
     <Image src="https://i.imgur.com/iBtiJj9.jpg" alt="Pentago" mb="8" />
 

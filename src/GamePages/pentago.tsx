@@ -6,22 +6,30 @@ import TOP_BAR from '../Components/TopBar';
 import Collapsible_Component from '../Components/CollapsibleComponent';
 import Download_Link from '../Components/DownloadLink';
 import { IoIosPlay } from "react-icons/io";
+
+import { DownloadIcon } from '@chakra-ui/icons';
 import { DiCode } from "react-icons/di";
 import {interfaceSnippet, humanSnippet, introDescription, gameManagerSnippet, gameManagerSnippetDescription, humanSnippetDescription, computerSnippet, computerSnippetDescription, callbackSnippetDescription, callbackSnippet, aIIntroDescription, hasWinnerSnippet, aiOutro} from '../CodeSnippets/pentagoSnippets';
+
+
+
+
+
 
 const Pentago = () => {
   const youtubeEmbedUrl = "https://www.youtube.com/embed/FZ9cQwlkE9E?si=grzrClX3MkCUWOsL";
 
-
   return (
-    <Container maxW="65%" p={0} pt="64px">
+    <Container maxW={["100%", "90%", "80%", "70%", "65%"]} p={0} pt="64px">
+    {/* <Container  p={0} pt="64px"> */}
       <TOP_BAR />
-      <Box mt="0px" mb="100px" ml="150px" mr="150px">
-      <Box textAlign="center" mb="25px">
+      <Box mt="0px" mb="100px" ml={["5%", "10%", "150px"]} mr={["5%", "10%", "150px"]}>
+      {/* <Box mt="0px" mb="100px" ml="150px" mr="150px"> */}
+      <Box textAlign="center" mb="25px" >
       <Text fontSize="6xl" fontWeight="bold">
         PENTAGO 3D
       </Text>
-      <Download_Link url="https://doublemeta.itch.io/pentago" text="Download Game" />
+      <Download_Link url="https://doublemeta.itch.io/pentago" text="Download Game"  buttonIcon={DownloadIcon}/>
 
       <Box display="flex" justifyContent="center" width="full" mb="8">
         <Grid templateColumns="max-content 1fr" rowGap={0} columnGap={6}  alignItems="center">

@@ -1,37 +1,35 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
 
+export const aboutDescription: string = `Technology has been a driving force in my life, sparking my curiosity and shaping my career path. My foundational education began with a digital audio certificate from Santa Rosa Junior College and continued with a Computer Science degree from Sonoma State University. Throughout my academic journey, I engaged in diverse projects ranging from software development to game creation, honing my skills in programming, design, and analytical thinking.
+
+Professionally, I have worked as an audio engineer, deepening my understanding of sound technology and its applications. An 8-month robotics programming internship at VIAVI Solutions further broadened my exposure to the forefront of technological innovation, specifically in robotics and automation.
+
+Following my graduation, my focus has been on application development. In this role, I've been able to leverage my technical skills to create user-centric solutions, showcasing my adaptability and commitment to innovation. My diverse experiences have prepared me to face challenges across various sectors within the tech industry.
+
+I am enthusiastic about the opportunity to join a dynamic team, contributing my knowledge and skills while continuing to evolve as a professional. My goal is to be part of forward-thinking projects that use technology to create impactful and innovative solutions.`;
+
 const AboutTanner = () => {
     return (
-        <Box mt="25px" mb="100px" ml="150px" mr="150px">
-             {/* Title */}
-             <Text fontSize="4xl" mb="25px" textAlign="center">
-                 About Me
+        // <Box mt="25px" mb="100px" ml="150px" mr="150px">
+        //      <Text fontSize="4xl" mb="25px" textAlign="center">
+        //          About Me
+        //     </Text>
+            
+        //     <Text whiteSpace="pre-wrap" fontSize="md" mb="20px">
+        //         {aboutDescription}
+        //     </Text>
+        // </Box>
+        <Box mt="25px" mb="100px" ml={["5%", "10%", "150px"]} mr={["5%", "10%", "150px"]}>
+            <Text fontSize="4xl" mb="25px" textAlign="center">
+                About Me
             </Text>
             
-            <Text fontSize="md" mb="20px">
-                From a young age, video games shaped my personal journey, 
-                especially when I began competing in esports with Super Smash Bros Melee. 
-                I became highly skilled at Melee and even became an affiliate streamer on Twitch.
-
-                As I delved deeper into the game mechanics, 
-                my interest shifted from playing to understanding game development.
-
-                After earning a digital audio certificate from Santa Rosa Junior College, 
-                I pursued a computer science degree, 
-                leading to game creation at both SRJC and Sonoma State University.
-
-                Concurrently, I worked as an audio engineer 
-                and undertook an 8-month robotics programming internship at VIAVI solutions.
-
-                Since graduating from SSU in 2023, 
-                I've dedicated myself to application development.
-
-                I'm eager to share my work with you.
-
-
+            <Text whiteSpace="pre-wrap" fontSize="md" mb="20px">
+                {aboutDescription}
             </Text>
         </Box>
+
     );
 }
 

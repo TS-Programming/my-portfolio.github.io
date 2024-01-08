@@ -1,17 +1,18 @@
 import React from 'react';
-import {Box, Container} from '@chakra-ui/react';
+import {Box, Container, Text} from '@chakra-ui/react';
 import ABOUT_TEXT from './about';
 import GAME_GRID from './gameGrid';
 import NEEDLE_GAMES from '../NeedleGames';
 import TOP_BAR from '../Components/TopBar';
 import BANNER from '../Components/Banner';
+import Download_Link from '../Components/DownloadLink';
 
 export default function Home() {
 
   return (
-    <Container maxW="100%" p={0} pt="64px">
+    <Container maxW="100%" p={0} pt="64px" pb="64px">
       <TOP_BAR/>
-      <Box>
+      <Box id="home-page">
         <BANNER 
           id="featured-section" 
           title="Featured Project" 
@@ -31,6 +32,11 @@ export default function Home() {
         />  
 
         <GAME_GRID />
+
+        {/* <Text fontSize="2xl" fontWeight="bold" textAlign="center" mt="64px" mb="64px">
+          Contact
+        </Text>
+        <Download_Link url="www.linkedin.com/in/tanner-samples-ggs" text="Linkedin"  buttonIcon={DownloadIcon}/> */}
       </Box>
     </Container>
   );
