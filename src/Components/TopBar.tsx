@@ -138,7 +138,8 @@ const TopBar: React.FC = () => {
       variant="ghost"
       h="64px"
       borderRadius={0}
-      px={["2", "3", "4"]} // Adjust padding for responsiveness
+      fontSize={["sm","md"]} // Larger font size for the first button
+      px={["1", "2", "3"]} // Adjust padding for responsiveness
       onClick={() => navigateAndScroll('about-section')}
       _hover={{ backgroundColor: 'red.700', color: 'white' }}
     >
@@ -150,7 +151,8 @@ const TopBar: React.FC = () => {
       variant="ghost"
       h="64px"
       borderRadius={0}
-      px={["2", "3", "4"]} // Adjust padding for responsiveness
+      fontSize={["sm","md"]} // Larger font size for the first button
+      px={["1", "2", "3"]} // Adjust padding for responsiveness
       onClick={() => navigateAndScroll('games-section')}
       _hover={{ backgroundColor: 'red.700', color: 'white' }}
     >
@@ -162,7 +164,8 @@ const TopBar: React.FC = () => {
       variant="ghost"
       h="64px"
       borderRadius={0}
-      px={["2", "3", "4"]} // Adjust padding for responsiveness
+      fontSize={["sm","md"]} // Larger font size for the first button
+      px={["1", "2", "3"]} // Adjust padding for responsiveness
       onClick={() => window.open('https://www.linkedin.com/in/tanner-samples-ggs/', '_blank')}
       _hover={{ backgroundColor: 'red.700', color: 'white' }}
     >
@@ -175,7 +178,8 @@ const TopBar: React.FC = () => {
         variant="ghost"
         h="64px"
         borderRadius={0}
-        px={["2", "3", "4"]} // Adjust padding for responsiveness
+        fontSize={["sm","md"]} // Larger font size for the first button
+        px={["1", "2", "3"]} // Adjust padding for responsiveness
         _hover={{ backgroundColor: 'red.700', color: 'white' }}
       >
         Resume
