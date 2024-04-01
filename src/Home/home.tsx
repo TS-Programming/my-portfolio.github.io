@@ -31,7 +31,7 @@ export default function Home() {
           subTitle="Click on the tiles to learn more about each project."
         />  
 
-        <GAME_GRID />
+        <GAME_GRID/>
 
         {/* <Text fontSize="2xl" fontWeight="bold" textAlign="center" mt="64px" mb="64px">
           Contact
