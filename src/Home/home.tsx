@@ -13,11 +13,11 @@ export default function Home() {
     <Container maxW="100%" p={0} pt="64px" pb="64px">
       <TOP_BAR/>
       <Box id="home-page">
-        <BANNER 
+        {/*<BANNER 
           id="featured-section" 
           title="Featured Project" 
           subTitle="This chest contains items from each of my portfolio pieces. Click on the description of an item to go to a page providing development details!"
-        />
+        />*/}
 
         {/*<NEEDLE_GAMES/>*/}
 
