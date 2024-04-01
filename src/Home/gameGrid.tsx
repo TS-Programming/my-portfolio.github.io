@@ -24,11 +24,11 @@ const GameGrid = () => {
             bannerLabel: "Play now!"
         },
         {
-            imageUrl: "https://i.imgur.com/6wQQTrG.jpg",
+            imageUrl: "https://i.imgur.com/H2P3IDg.jpg",
             linkUrl: "https://tannersamples.com/#/kickback",
             gameTags: ["Arcade", "Online" , "Top-Down", "Shooter"],
             description: "Kickback is an explosive top down arcade shooter in space.",
-            features: ["Destructive fragmentation special effects", "Online leaderboard", "Highly polished, cohesive UI"],
+            features: ["Destructive fragmentation special effects", "Online leaderboard", "Highly polished graphics, spatial audio, and cohesive UI"],
             bannerLabel: "Go for the highscore!"
         }
         // {
