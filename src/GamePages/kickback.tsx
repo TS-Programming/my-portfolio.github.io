@@ -12,8 +12,8 @@ import { DiCode } from "react-icons/di";
 import {interfaceSnippet, humanSnippet, introDescription, gameManagerSnippet, gameManagerSnippetDescription, humanSnippetDescription, computerSnippet, computerSnippetDescription, callbackSnippetDescription, callbackSnippet, aIIntroDescription, hasWinnerSnippet, aiOutro} from '../CodeSnippets/pentagoSnippets';
 
 
-const Pentago = () => {
-  const youtubeEmbedUrl = "https://www.youtube.com/embed/FZ9cQwlkE9E?si=grzrClX3MkCUWOsL";
+const Kickback = () => {
+  const youtubeEmbedUrl = "https://www.youtube.com/watch?v=lGSVwhfV3WA";
 
   return (
     <Container maxW={["100%", "90%", "80%", "70%", "65%"]} p={0} pt="64px">
@@ -82,4 +82,4 @@ const Pentago = () => {
   );
 }
 
-export default Pentago;
+export default Kickback;
