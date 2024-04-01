@@ -19,7 +19,7 @@ export default function Home() {
           subTitle="This chest contains items from each of my portfolio pieces. Click on the description of an item to go to a page providing development details!"
         />
 
-        <NEEDLE_GAMES/>
+        {/*<NEEDLE_GAMES/>*/}
 
         <Box id="about-section" mb="64px">
           <ABOUT_TEXT />
@@ -27,7 +27,7 @@ export default function Home() {
 
         <BANNER
           id="games-section"
-          title="My Games"
+          title="My Projects"
           subTitle="Click on the tiles to learn more about each project."
         />  
 

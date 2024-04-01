@@ -5,6 +5,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home/home';
 import Pentago from './GamePages/pentago';
 import MakingTheSite from './GamePages/makingTheSite';
+import Kickback from './GamePages/kickback';
 // import TopBar from './TopBar';
 // import { ScrollProvider } from './ScrollContext';
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/pentago" element={<Pentago />} />
           <Route path="/making-the-site" element={<MakingTheSite />} />
+          <Route path="/kickback" element={<Kickback />} />
         </Routes>
       </Router>
    </ChakraProvider>

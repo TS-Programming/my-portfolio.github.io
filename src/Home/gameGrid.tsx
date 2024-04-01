@@ -25,12 +25,20 @@ const GameGrid = () => {
         },
         {
             imageUrl: "https://i.imgur.com/6wQQTrG.jpg",
-            linkUrl: "https://tannersamples.com/#/making-the-site",
-            gameTags: ["ReactJS", "TypeScript" , "Unity", "Needle Tools"],
-            description: "How I made my website.",
-            features: ["3D graphics centerpiece with links to portfolio pages", "Custom ReactJS site", "WebGL integration with ReactJS using Unity and Needle Tools"],
-            bannerLabel: "This site"
-        }//,
+            linkUrl: "https://tannersamples.com/#/kickback",
+            gameTags: ["Arcade", "Online" , "Top-Down", "Shooter"],
+            description: "Kickback is an explosive top down arcade shooter in space.",
+            features: ["Destructive fragmentation special effects", "Online leaderboard", "Highly polished, cohesive UI"],
+            bannerLabel: "Go for the highscore!"
+        }
+        // {
+        //     imageUrl: "https://i.imgur.com/6wQQTrG.jpg",
+        //     linkUrl: "https://tannersamples.com/#/making-the-site",
+        //     gameTags: ["ReactJS", "TypeScript" , "Unity", "Needle Tools"],
+        //     description: "How I made my website.",
+        //     features: ["3D graphics centerpiece with links to portfolio pages", "Custom ReactJS site", "WebGL integration with ReactJS using Unity and Needle Tools"],
+        //     bannerLabel: "This site"
+        // }//,
         // {
         //     imageUrl: "https://lineinlime.com/wp-content/uploads/2018/05/image_20180518_104325.jpg",
         //     linkUrl: "/game-page-1",

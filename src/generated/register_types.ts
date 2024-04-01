@@ -9,6 +9,7 @@ import { DeveloperDebug } from "../scripts/developerDebug.js";
 import { PentagoBoardAnimator } from "../scripts/pentagoBoardAnimator.js";
 import { PlayerController } from "../scripts/playerController.js";
 import { Shovel } from "../scripts/shovel.js";
+import { Squid } from "../scripts/squid.js";
 
 // Register types
 TypeStore.add("ballSpawner", ballSpawner);
@@ -19,3 +20,4 @@ TypeStore.add("DeveloperDebug", DeveloperDebug);
 TypeStore.add("PentagoBoardAnimator", PentagoBoardAnimator);
 TypeStore.add("PlayerController", PlayerController);
 TypeStore.add("Shovel", Shovel);
+TypeStore.add("Squid", Squid);
