@@ -172,7 +172,7 @@ const TopBar: React.FC = () => {
       LinkedIn
     </Button>
 
-    <a href="https://raw.githubusercontent.com/TS-Programming/my-portfolio.github.io/main/pdf/resume-tanner-samples-winter-2024.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="https://raw.githubusercontent.com/TS-Programming/my-portfolio.github.io/main/pdf/resume-tanner-samples-spring-2024.pdf" target="_blank" rel="noopener noreferrer">
       <Button
         color="white"
         variant="ghost"
