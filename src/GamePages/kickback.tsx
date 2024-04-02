@@ -13,7 +13,7 @@ import {about, objectPoolIntro, awakeAndStart, getFromPool, returnToPool, getAct
 
 
 const Kickback = () => {
-  const youtubeEmbedUrl = "https://www.youtube.com/watch?v=lGSVwhfV3WA";
+  const youtubeEmbedUrl = "https://www.youtube.com/embed/lGSVwhfV3WA?si=YoHpuV_dzYcfcSbH";
 
 
   return (

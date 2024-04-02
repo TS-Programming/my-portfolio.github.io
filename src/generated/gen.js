@@ -2,14 +2,14 @@
 
 export const needle_exported_files = new Array();
 globalThis["needle:codegen_files"] = needle_exported_files;
-needle_exported_files.push("assets/tannerSamples.glb?v=1712088398144");
+needle_exported_files.push("assets/tannerSamples.glb?v=1712088926740");
 
 document.addEventListener("DOMContentLoaded", () =>
 {
 	const needleEngine = document.querySelector("needle-engine");
 	if(needleEngine && needleEngine.getAttribute("src") === null)
 	{
-		needleEngine.setAttribute("hash", "1712088398144");
+		needleEngine.setAttribute("hash", "1712088926740");
 		needleEngine.setAttribute("src", JSON.stringify(needle_exported_files));
 	}
 });
