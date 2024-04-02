@@ -21,7 +21,7 @@ const GameGrid = () => {
             features: ["3D adaptation of Pentago, playable on both mobile and desktop with dynamic camera perspectives", 
                         "Highly polished presentation with charming music and sound effects",
                         "Advanced AI opponent with asynchronous Min-Max and Alpha-Beta pruning mechanics"],
-            bannerLabel: "Play now!"
+            bannerLabel: "Relax with a challenge"
         },
         {
             imageUrl: "https://i.imgur.com/H2P3IDg.jpg",
