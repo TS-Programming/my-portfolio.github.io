@@ -127,7 +127,7 @@ public int GetPoolSize(string objectName)
 
 
 
-export const returnToPoolIntro: string = `When returning an object to the pool, instead of providing the name of the object, you provide the object itself. Since the pooled opbjects are indexed, a delimiter ' ' is used to parse out the name. Also included is a time to wait parameter, which is used to delay the return to the pool. This is useful for letting animations or audio clips finish playing before returning the object.
+export const returnToPoolIntro: string = `When returning an object to the pool, instead of providing the name of the object, you provide the object itself. Since the pooled objects are indexed, a delimiter ' ' is used to parse out the name. Also included is a time to wait parameter, which is used to delay the return to the pool. This is useful for letting animations or audio clips finish playing before returning the object.
 `;
 
 export const returnToPool: string = `

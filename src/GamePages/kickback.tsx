@@ -54,7 +54,7 @@ const Kickback = () => {
             allowFullScreen />
         </AspectRatio>
 
-        <Collapsible_Component showText="View object pool snippets" buttonIcon={DiCode} iconSize="32px">
+        <Collapsible_Component showText="View Object Pool Snippets" buttonIcon={DiCode} iconSize="32px">
           <Text whiteSpace="pre-wrap" fontSize="lg" textAlign="left" mb="8"> {objectPoolIntro.trim()}</Text>
           <Text whiteSpace="pre-wrap" fontSize="lg" textAlign="left" mb="8"> {awakeAndStartIntro.trim()}</Text>
           <SyntaxHighlighter language="csharp" style={dark}>{awakeAndStart.trim()}</SyntaxHighlighter>
